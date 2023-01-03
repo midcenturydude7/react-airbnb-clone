@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/* === GENERAL STYLES === */
 html, body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
@@ -13,6 +14,12 @@ img {
   max-width: 100%;
 }
 
+
+section {
+  padding: 0 2.75em;
+}
+
+/* === NAVBAR STYLES === */
 .navbar--container {
   display: flex;
   padding: 2em;
@@ -23,24 +30,26 @@ img {
   width: 120px;
 }
 
-.main--container {
+/* === HERO SECTION STYLES === */
+.hero--container {
   display: flex;
   flex-direction: column;
   margin-top: 2.75em;
-  padding: 0 2.75em;
 }
 
-.main--hero-img {
+.hero--img {
   width: 80%;
   align-self: center;
 }
 
-.main--title {
+.hero--title {
   font-size: 3rem;
   margin: 0.75em 0 .125em;
 }
 
-.main--text {
+.hero--text {
   font-size: 1.25rem;
   width: 50%;
+  margin: 0;
+  padding: 0;
 }
