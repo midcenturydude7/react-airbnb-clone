@@ -13,12 +13,34 @@ img {
   max-width: 100%;
 }
 
-nav.navbar-container {
+.navbar--container {
   display: flex;
   padding: 2em;
   box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.247);
 }
 
-img.navbar-logo {
+.navbar--logo {
   width: 120px;
+}
+
+.main--container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.75em;
+  padding: 0 2.75em;
+}
+
+.main--hero-img {
+  width: 80%;
+  align-self: center;
+}
+
+.main--title {
+  font-size: 3rem;
+  margin: 0.75em 0 .125em;
+}
+
+.main--text {
+  font-size: 1.25rem;
+  width: 50%;
 }
