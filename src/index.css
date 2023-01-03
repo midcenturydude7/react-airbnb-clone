@@ -14,14 +14,24 @@ img {
   max-width: 100%;
 }
 
+.layout {
+  display: flex;
+  flex-direction: column;
+}
 
 section {
   padding: 0 2.75em;
+  max-width: 1200px;
+}
+
+.bold {
+  font-weight: 600;
 }
 
 /* === NAVBAR STYLES === */
 .navbar--container {
   display: flex;
+  width: 100%;
   padding: 2em;
   box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.247);
 }
@@ -43,7 +53,7 @@ section {
 }
 
 .hero--title {
-  font-size: 3rem;
+  font-size: 6.25vw;
   margin: 0.75em 0 .125em;
 }
 
@@ -52,4 +62,58 @@ section {
   width: 50%;
   margin: 0;
   padding: 0;
+}
+
+/* === CARD SECTION STYLES === */
+.card--container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2em;
+  padding-bottom: 3em;
+}
+
+.card-img__container {
+  position: relative;
+}
+
+.card--img {
+  position: relative;
+  width: 95%;
+  border-radius: 15px;
+}
+
+.card--img-status {
+  position: absolute;
+  top: -10px;
+  z-index: 1;
+}
+
+.card--text__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card--star-icon__container {
+  display: flex;
+  margin: .5em 0;
+}
+
+.card--star-icon__img {
+  color: #FE395C;
+  font-size: .9rem;
+}
+
+.card--star-icon__text {
+  margin-left: .25em;
+  font-size: .9rem;
+}
+
+.card--star-icon__text + .card--star-icon__text {
+  color: #918E9B;
+}
+
+.card--text__container--text {
+  line-height: 1.7;
+  font-size: .9rem;
 }

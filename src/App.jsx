@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Components/Card";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <Card />
     </div>
   );
 }
